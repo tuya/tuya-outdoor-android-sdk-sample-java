@@ -99,17 +99,20 @@ public class OutdoorUtils {
             TuyaPanelI18nEntrance.getInstance().updateI18n(new I18nRequestParam(deviceBean.productId, deviceBean.i18nTime), new ITuyaResultCallback<Object>() {
                 @Override
                 public void onSuccess(Object result) {
-                    Map<String, Map<String, Object>> i18nMap1 = TuyaPanelI18nEntrance.getInstance().getI18nMap(new I18nRequestParam(deviceBean.productId, 0L));
+                    Map<String, Map<String, Object>> i18nMapNew = TuyaPanelI18nEntrance.getInstance().getI18nMap(new I18nRequestParam(deviceBean.productId, 0L));
                     String language = Locale.getDefault().getLanguage();
-                    if (!i18nMap.containsKey(language)) {
+                    if (!i18nMapNew.containsKey(language)) {
                         language = "en";
                     }
-                    Map<String, Object> dpLanguageMap = i18nMap1.get(language);
+                    Map<String, Object> dpLanguageMap = i18nMapNew.get(language);
                     String sb = "dp_" + schemaBean.code + dpUnitText;
-                    Object object = dpLanguageMap.get(sb);
-                    if (object instanceof String) {
-                        if (!TextUtils.isEmpty((String) object)) {
-                            dpString[0] = (String) object;
+                    if (dpLanguageMap != null) {
+                        Object object = dpLanguageMap.get(sb);
+                        if (object instanceof String) {
+                            String dpText = (String) object;
+                            if (!TextUtils.isEmpty(dpText)) {
+                                dpString[0] = dpText;
+                            }
                         }
                     }
                 }
@@ -125,9 +128,14 @@ public class OutdoorUtils {
             }
             Map<String, Object> dpLanguageMap = i18nMap.get(language);
             String sb = "dp_" + schemaBean.code + dpUnitText;
-            Object object = dpLanguageMap.get(sb);
-            if (object instanceof String) {
-                dpString[0] = (String) object;
+            if (dpLanguageMap != null) {
+                Object object = dpLanguageMap.get(sb);
+                if (object instanceof String) {
+                    String dpText = (String) object;
+                    if (!TextUtils.isEmpty(dpText)) {
+                        dpString[0] = dpText;
+                    }
+                }
             }
         }
         return dpString[0];
