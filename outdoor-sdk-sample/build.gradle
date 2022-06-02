@@ -29,12 +29,6 @@ allprojects {
                 releasesOnly()
             }
         }
-        maven {
-            credentials {
-                // todo input your maven info
-            }
-            url "https://maven-other.tuya.com/repository/maven-private/"
-        }
         jcenter() //Warning:this repository is going to shut down soon
     }
 }
