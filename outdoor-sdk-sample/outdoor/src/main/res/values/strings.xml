@@ -3,6 +3,8 @@
     <string name="outdoor_panel_title">outdoor device</string>
     <string name="outdoor_device_control">device control</string>
     <string name="outdoor_network_api">interface debug</string>
+    <string name="outdoor_inductive_unlock">inductive unlock</string>
+    <string name="outdoor_device_remove">device remove</string>
 
     <string name="device_mgt_module_title">DEVICE MANAGEMENT</string>
     <string name="device_mgt_list">Device List</string>
@@ -49,4 +51,27 @@
     <string name="cannot_select_wifi_device">Wifi-device cannot be selected</string>
     <string name="cannot_select_different_pcc_device">Only the same pcc device can be selected.</string>
     <string name="please_wait_for_a_minute">please wait for a minute</string>
+
+    <string name="bluetooth_offline">bluetooth offline</string>
+    <string name="not_support_inductive_unlock">not support inductive unlock</string>
+    <string name="inductive_unlock_type">inductive unlock type</string>
+    <string name="inductive_unlock_switch">inductive unlock switch</string>
+    <string name="inductive_unlock_hid_bind">hid_bind</string>
+    <string name="turn_on_inductive_unlock">turn on inductive unlock</string>
+    <string name="turn_off_inductive_unlock">turn off inductive unlock</string>
+    <string name="record_fortify_distance">record fortify distance</string>
+    <string name="record_disarm_distance">record disarm distance</string>
+    <string name="inductive_unlock_distance">inductive unlock distance</string>
+    <string name="publish_record_fortify_distance_success">publish record fortify distance dp success</string>
+    <string name="publish_record_disarm_distance_success">publish record disarm distance dp success</string>
+    <string name="bt_unlock_pair_group_limit">The device local binding has exceeded the limit, please contact the main user</string>
+    <string name="bt_unlock_pair_error_dialog_hint">Pairing failed, please restart pairing</string>
+    <string name="bt_unlock_pair_cancel_dialog_hint">Cancel pairing, please restart pairing</string>
+    <string name="bt_unlock_pair_remove_bt_bond_hint">Please go to the system Bluetooth settings to cancel the %s device pairing</string>
+    <string name="bt_unlock_pair_local_info_none_hint">The pairing information is not found, please re-enable the induction unlock</string>
+    <string name="bt_unlock_manual_pair">Please go to the system to manually select the %s device for pairing and connection</string>
+    <string name="action_ok">action_ok</string>
+    <string name="action_to_setting">action_to_setting</string>
+    <string name="remove_bonded_tip">Tip</string>
+    <string name="remove_bonded_hint">The device has turned on inductive unlock, please connect the device first to unbind it.</string>
 </resources>

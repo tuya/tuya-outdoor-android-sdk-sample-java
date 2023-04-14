@@ -43,6 +43,5 @@ dependencies {
     implementation 'com.squareup.okhttp3:okhttp-urlconnection:3.14.9'
     implementation project(':base_res')
 
-    implementation project(':ipc')
     implementation project(':outdoor')
 }

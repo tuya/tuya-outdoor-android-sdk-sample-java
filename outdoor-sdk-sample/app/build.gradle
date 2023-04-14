@@ -20,8 +20,8 @@ android {
         Properties properties = new Properties()
         properties.load(project.rootProject.file('local.properties').newDataInputStream())
         manifestPlaceholders = [
-                TUYA_SMART_APPKEY: "${properties.getProperty("appKey")}",
-                TUYA_SMART_SECRET: "${properties.getProperty("appSecret")}",
+                THING_SMART_APPKEY: "${properties.getProperty("appKey")}",
+                THING_SMART_SECRET: "${properties.getProperty("appSecret")}",
         ]
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
@@ -49,7 +49,7 @@ android {
 }
 
 dependencies {
-
+    implementation fileTree(include: ['*.aar'], dir: 'libs')
     implementation 'androidx.core:core-ktx:1.3.2'
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.3.0-alpha04'
@@ -68,7 +68,7 @@ dependencies {
     implementation project(":home")
     implementation project(":device_config")
     implementation project(":device_management")
-    implementation project(":ipc")
+    implementation project(":outdoor")
 
     implementation 'cn.yipianfengye.android:zxing-library:2.2'
 

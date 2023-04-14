@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tuya.sample.outdoor">
+    package="com.thingclips.sample.outdoor">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <application>
@@ -12,6 +12,12 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".network_api.activity.NetworkApiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".device_control.activity.InductiveUnlockActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".device_control.activity.DeviceRemoveActivity"
             android:screenOrientation="portrait" />
     </application>
 </manifest>

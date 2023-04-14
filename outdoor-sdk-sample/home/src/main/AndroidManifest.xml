@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tuya.appsdk.sample.user">
+    package="com.thingclips.appsdk.sample.user">
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application>
         <activity
-            android:name="com.tuya.appsdk.sample.home.list.adapter.HomeListActivity"
+            android:name="com.thingclips.appsdk.sample.home.list.adapter.HomeListActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.tuya.appsdk.sample.home.detail.HomeDetailActivity"
+            android:name="com.thingclips.appsdk.sample.home.detail.HomeDetailActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.tuya.appsdk.sample.home.newHome.NewHomeActivity"
+            android:name="com.thingclips.appsdk.sample.home.newHome.NewHomeActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.tuya.appsdk.sample.home.edit.HomeEditActivity"
+            android:name="com.thingclips.appsdk.sample.home.edit.HomeEditActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
     </application>

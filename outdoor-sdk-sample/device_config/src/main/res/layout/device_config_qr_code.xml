@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.tuya.appsdk.sample.device.config.qrcode.QrCodeConfigActivity"
+    tools:context="com.thingclips.appsdk.sample.device.config.qrcode.QrCodeConfigActivity"
     android:background="@color/white">
 
     <com.google.android.material.appbar.AppBarLayout
