@@ -3,6 +3,8 @@
     <string name="outdoor_panel_title">户外设备</string>
     <string name="outdoor_device_control">设备控制</string>
     <string name="outdoor_network_api">接口调试</string>
+    <string name="outdoor_inductive_unlock">无感解锁</string>
+    <string name="outdoor_device_remove">设备移除</string>
 
     <string name="device_mgt_module_title">设备管理</string>
     <string name="device_mgt_list">设备列表</string>
@@ -50,4 +52,27 @@
 
     <string name="group_control">设备控制</string>
     <string name="please_wait_for_a_minute">请稍后</string>
+
+    <string name="bluetooth_offline">蓝牙离线</string>
+    <string name="not_support_inductive_unlock">该设备不支持感应解锁</string>
+    <string name="inductive_unlock_type">感应解锁类型</string>
+    <string name="inductive_unlock_switch">感应解锁开关</string>
+    <string name="inductive_unlock_hid_bind">HID绑定状态</string>
+    <string name="turn_on_inductive_unlock">开启感应解锁</string>
+    <string name="turn_off_inductive_unlock">关闭感应解锁</string>
+    <string name="record_fortify_distance">记录设防距离</string>
+    <string name="record_disarm_distance">记录解防距离</string>
+    <string name="inductive_unlock_distance">感应解锁距离</string>
+    <string name="publish_record_fortify_distance_success">下发记录设防距离指令成功</string>
+    <string name="publish_record_disarm_distance_success">下发记录解防距离指令成功</string>
+    <string name="bt_unlock_pair_group_limit">设备本地绑定已超过限制，请联系主用户</string>
+    <string name="bt_unlock_pair_error_dialog_hint">配对失败，请重新开启配对</string>
+    <string name="bt_unlock_pair_cancel_dialog_hint">取消配对，请重新开启配对</string>
+    <string name="bt_unlock_pair_remove_bt_bond_hint">请前往系统蓝牙设置里取消%s车辆配对</string>
+    <string name="bt_unlock_pair_local_info_none_hint">未查询到配对信息，请重新开启感应解锁</string>
+    <string name="bt_unlock_manual_pair">请到系统中手动选择%s设备进行配对连接</string>
+    <string name="action_ok">确定</string>
+    <string name="action_to_setting">去设置</string>
+    <string name="remove_bonded_tip">提示</string>
+    <string name="remove_bonded_hint">该车辆已开启无感解锁功能，需要设备在线时进行解绑设备</string>
 </resources>

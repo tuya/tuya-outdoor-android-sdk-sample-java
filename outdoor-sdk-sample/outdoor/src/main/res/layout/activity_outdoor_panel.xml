@@ -23,8 +23,8 @@
         android:id="@+id/tvDeviceControl"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/shape_border_bg"
         android:gravity="center"
         android:padding="16dp"
@@ -37,10 +37,37 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/shape_border_bg"
         android:gravity="center"
         android:padding="16dp"
         android:text="@string/outdoor_network_api"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvInductiveUnlock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_border_bg"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/outdoor_inductive_unlock"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvDeviceRemove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_border_bg"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/outdoor_device_remove"
         android:textColor="@color/white"
         android:textSize="18sp" />
 </LinearLayout>

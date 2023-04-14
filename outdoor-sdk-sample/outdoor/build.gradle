@@ -38,7 +38,7 @@ dependencies {
 
     implementation project(':base_res')
     implementation 'com.alibaba:fastjson:1.1.67.android'
-    implementation 'com.tuya.smart:customlint:1.0.9-rc.1'
-    implementation "com.tuya.smart:tuyasmart-sdk-i18n:1.0.0"
-    implementation 'com.tuya.smart:tuyasmart-outdoor-sdk:0.1.0'
+    implementation "com.thingclips.smart:thingsmart-sdk-i18n:2.0.1"
+    implementation "com.thingclips.smart:thingsmart-sdk-i18n-api:2.0.1"
+    implementation 'com.thingclips.smart:thingsmart-outdoor-sdk:5.0.0'
 }

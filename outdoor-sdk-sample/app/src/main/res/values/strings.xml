@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">TuyaOD SDK</string>
+    <string name="app_name">ThingOD SDK</string>
 
-    <string name="user_guide_title">Tuya SDK Sample</string>
+    <string name="user_guide_title">Thing SDK Sample</string>
     <string name="user_login">Login</string>
     <string name="user_country_code">Country Code</string>
     <string name="user_account_tips">Email Address or Phone Number</string>
@@ -25,7 +25,7 @@
     <string name="user_time_zone">Time Zone</string>
     <string name="user_unit_temperature">Unit of Temperature</string>
     <string name="app_version_tips">SDK Ver: %s</string>
-    <string name="main_logo">Tuya Smart</string>
+    <string name="main_logo">Thing Smart</string>
 
     <string name="user_update_coordinate">Update Geographic Coordinate</string>
     <string name="user_deactivate_account">Deactivate Account</string>
